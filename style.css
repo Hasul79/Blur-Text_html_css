@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f72585, #4361ee);
+    user-select: none;
+}
+span {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: white;
+    filter: blur(10px);
+    transition: 0.5s;
+    cursor: pointer;
+    letter-spacing: 10px;
+}
+span:hover {
+    filter: blur(0px);
+}
